@@ -14,5 +14,10 @@
     "VERSION": "v1.20.9:docker"
   },
   "name": "Totari-Z 380 ceiling light",
-  "standby_power": 0.22
+  "standby_power": 0.22,
+  "author_info": {
+    "name": "tommials",
+    "github": "tommials"
+  },
+  "author": "tommials"
 }
