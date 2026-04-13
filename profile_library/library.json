@@ -1116,6 +1116,37 @@
         },
         {
           "aliases": [
+            "33955"
+          ],
+          "calculation_strategy": "lut",
+          "created_at": "2026-03-27T00:46:20Z",
+          "device_type": "light",
+          "measure_device": "Shelly PM Mini Gen3 ",
+          "measure_method": "script",
+          "measure_settings": {
+            "SAMPLE_COUNT": 2,
+            "SLEEP_TIME": 3,
+            "VERSION": "v1.20.9:docker"
+          },
+          "name": "Totari-Z 380 ceiling light",
+          "standby_power": 0.22,
+          "author_info": {
+            "name": "tommials",
+            "github": "tommials"
+          },
+          "author": "tommials",
+          "id": "Totari-Z 380",
+          "manufacturer": "eglo",
+          "updated_at": "2026-04-10T06:39:53",
+          "max_power": 19.54,
+          "sub_profile_count": 0,
+          "color_modes": [
+            "color_temp"
+          ],
+          "hash": "e65d3b7d1f0880ef85a85c9fec478544"
+        },
+        {
+          "aliases": [
             "33957"
           ],
           "author": "Tom Frenzel <admin@tom-frenzel.de>",
@@ -4167,10 +4198,10 @@
           "sub_profile_count": 0,
           "color_modes": [
             "hs",
-            "effect",
-            "color_temp"
+            "color_temp",
+            "effect"
           ],
-          "hash": "3bad0b9fca3a5809ab4f9e2acc1bcd33"
+          "hash": "7c00c8ef9ea7b444ae877606e245eb04"
         },
         {
           "author": "Jari Eskelinen <jari.eskelinen@iki.fi>",
@@ -14710,10 +14741,10 @@
           "max_power": 42.49,
           "sub_profile_count": 2,
           "color_modes": [
-            "hsv",
-            "color_temp"
+            "color_temp",
+            "hsv"
           ],
-          "hash": "b251dc0be1a14126c86df718939fdab2"
+          "hash": "3e464c0176ec662f83574fc0a53ed9a7"
         },
         {
           "aliases": [
@@ -18711,15 +18742,20 @@
           },
           "name": "GUNNARP LED Ceiling / Wall Lamp 40cm",
           "standby_power": 0.05,
+          "author_info": {
+            "name": "Servox3",
+            "github": "Servox3"
+          },
+          "author": "Servox3",
           "id": "T1828",
           "manufacturer": "ikea",
-          "updated_at": "2026-04-12T18:51:26",
+          "updated_at": "2026-04-12T18:51:49",
           "max_power": 22.9,
           "sub_profile_count": 0,
           "color_modes": [
             "color_temp"
           ],
-          "hash": "23231159b044f490108238ab5964877f"
+          "hash": "afd060a5a51f25d437aa6f0757aa59bd"
         },
         {
           "aliases": [
@@ -20588,10 +20624,10 @@
           "sub_profile_count": 0,
           "color_modes": [
             "hs",
-            "effect",
-            "color_temp"
+            "color_temp",
+            "effect"
           ],
-          "hash": "a5c6eba98484c0d0e80abf7ece57775c"
+          "hash": "c835365008fd19155e8884933d36a213"
         },
         {
           "author": "Benjamin Neff <benjamin@coding4coffee.ch>",
@@ -20649,10 +20685,10 @@
           "sub_profile_count": 0,
           "color_modes": [
             "hs",
-            "effect",
-            "color_temp"
+            "color_temp",
+            "effect"
           ],
-          "hash": "adeed99661a7df5505181e398612a632"
+          "hash": "4b65e10e693f49107b69ca124b7e566d"
         },
         {
           "author": "gobbli",
@@ -20679,10 +20715,10 @@
           "sub_profile_count": 0,
           "color_modes": [
             "hs",
-            "effect",
-            "color_temp"
+            "color_temp",
+            "effect"
           ],
-          "hash": "f37a7dfbce76801a9228ffd96c12ef87"
+          "hash": "71fcc13f8e8cd86bc0ad5195a8d3a4fb"
         },
         {
           "author": "Chris Hallgren <challgren@gmail.com>",
@@ -20920,10 +20956,10 @@
           "sub_profile_count": 0,
           "color_modes": [
             "hs",
-            "effect",
-            "color_temp"
+            "color_temp",
+            "effect"
           ],
-          "hash": "6ccfe83c3b4364ec7e8c218945242848"
+          "hash": "b85db766803a8f6a53d90fd2f034065d"
         }
       ],
       "device_types": [
